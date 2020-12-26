@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "mxl_inf:infinitum_ore_block"
+  },
+  "result": "mxl_inf:infinitum_powder",
+  "experience": 1.0,
+  "cookingtime": 100
+}

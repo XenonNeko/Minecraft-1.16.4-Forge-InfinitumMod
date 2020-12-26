@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "XYX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:netherite_block"
+    },
+    "Y": {
+      "item": "minecraft:netherite_pickaxe"
+    }
+  },
+  "result": {
+    "item": "mxl_inf:ancient_infinitum_block"
+  }
+}

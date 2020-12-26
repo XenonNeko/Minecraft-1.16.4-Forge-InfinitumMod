@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "mxl_inf:items/infinitum_sword"
+  }
+}

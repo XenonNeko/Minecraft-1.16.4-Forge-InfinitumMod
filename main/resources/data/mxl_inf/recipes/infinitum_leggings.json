@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "mxl_inf:infinitum_ingot"
+    }
+  },
+  "result": {
+    "item": "mxl_inf:infinitum_leggings"
+  }
+}

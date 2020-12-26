@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "mxl_inf:infinitum_ingot"
+    }
+  },
+  "result": {
+    "item": "mxl_inf:infinitum_chestplate"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XYX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "mxl_inf:infinitum_powder"
+    },
+    "Y": {
+      "item": "minecraft:sponge"
+    }
+  },
+  "result": {
+    "item": "mxl_inf:lava_sponge_block",
+    "count": 3
+  }
+}

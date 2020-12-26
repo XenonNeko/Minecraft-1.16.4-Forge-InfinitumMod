@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mxl_inf:blocks/structure_controller_block"
+  }
+}

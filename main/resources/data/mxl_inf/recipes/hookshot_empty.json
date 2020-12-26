@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z Z",
+    "ZXZ",
+    "ZYZ"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:bow"
+    },
+    "Y": {
+      "item": "mxl_inf:infinitum_ingot"
+    },
+    "Z": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "mxl_inf:hookshot_empty"
+  }
+}

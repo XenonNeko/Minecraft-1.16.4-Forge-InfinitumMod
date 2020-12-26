@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:poisonous_potato"
+    }
+  },
+  "result": {
+    "item": "mxl_inf:poisonous_potato_block"
+  }
+}

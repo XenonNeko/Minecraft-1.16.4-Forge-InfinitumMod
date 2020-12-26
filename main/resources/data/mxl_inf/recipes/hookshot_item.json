@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mxl_inf:hookshot_empty"
+    },
+    {
+      "item": "mxl_inf:hookshot_hook"
+    },
+    {
+      "item": "minecraft:lead"
+    }
+  ],
+  "result":
+  {
+    "item": "mxl_inf:hookshot_item",
+    "count": 1
+  }
+}

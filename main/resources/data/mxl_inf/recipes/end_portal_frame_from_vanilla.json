@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:end_stone"
+    },
+    "X": {
+      "item": "mxl_inf:ancient_infinitum_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:end_portal_frame"
+  }
+}

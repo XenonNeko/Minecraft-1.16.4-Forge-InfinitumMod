@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=false": {"model": "mxl_inf:block/quarry_block"},
+    "lit=true": {"model": "mxl_inf:block/quarry_block_active"}
+  }
+}

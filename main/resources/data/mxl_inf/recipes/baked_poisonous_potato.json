@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:poisonous_potato"
+  },
+  "result": "mxl_inf:baked_poisonous_potato",
+  "experience": 0.35,
+  "cookingtime": 200
+}

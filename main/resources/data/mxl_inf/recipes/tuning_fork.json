@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "X X",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "Y": {
+      "item": "mxl_inf:infinitum_ingot"
+    }
+  },
+  "result": {
+    "item": "mxl_inf:tuning_fork"
+  }
+}

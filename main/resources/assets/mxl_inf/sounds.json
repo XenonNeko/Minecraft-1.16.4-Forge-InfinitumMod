@@ -1,0 +1,12 @@
+{
+  "tuning_fork_ring": {
+    "category": "block",
+    "subtitle": "mxl_inf.subtitle.tuning_fork_ring",
+    "sounds": [ "mxl_inf:tuning_fork_ring" ]
+  },
+  "tuning_fork_clank": {
+    "category": "block",
+    "subtitle": "mxl_inf.subtitle.tuning_fork_clank",
+    "sounds": [ "mxl_inf:tuning_fork_clank" ]
+  }
+}
