@@ -4,7 +4,7 @@ license="All rights reserved"
 issueTrackerURL="http://my.issue.tracker/" #optional
 [[mods]] #mandatory
 modId="mxl_inf" #mandatory
-version="1.16.4-0.1.0" #mandatory
+version="1.16.4-1.0.1" #mandatory
 displayName="Infinitum Mod" #mandatory
 updateJSONURL="http://myurl.me/" #optional
 displayURL="https://github.com/XenonNeko/Minecraft-1.16.4-Forge-InfinitumMod" #optional

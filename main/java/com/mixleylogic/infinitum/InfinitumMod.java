@@ -66,5 +66,12 @@ public class InfinitumMod
         }
     };
 
+    public static final ItemGroup UNUSED_TAB = new ItemGroup("unusedContent") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(ModItems.ANCIENT_INFINITUM_INGOT.get());
+        }
+    };
+
 
 }

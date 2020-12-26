@@ -17,19 +17,19 @@ public class ModItems {
 
     // Items
     public static final RegistryObject<Item> INFINITUM_INGOT = ITEMS.register("infinitum_ingot",
-            ItemBase::new);
+            () -> new ItemBase(InfinitumMod.INFINITUM_TAB));
     public static final RegistryObject<Item> INFINITUM_POWDER = ITEMS.register("infinitum_powder",
-            ItemBase::new);
+            () -> new ItemBase(InfinitumMod.INFINITUM_TAB));
     public static final RegistryObject<Item> REFINED_INFINITUM_POWDER = ITEMS.register("refined_infinitum_powder",
-            ItemBase::new);
+            () -> new ItemBase(InfinitumMod.INFINITUM_TAB));
     public static final RegistryObject<Item> ANCIENT_INFINITUM_INGOT = ITEMS.register("ancient_infinitum_ingot",
-            ItemBase::new);
+            () -> new ItemBase(InfinitumMod.UNUSED_TAB));
     public static final RegistryObject<Item> HOOKSHOT_ITEM = ITEMS.register("hookshot_item",
             () -> new HookshotItem(true));
     public static final RegistryObject<Item> HOOKSHOT_EMPTY = ITEMS.register("hookshot_empty",
             () -> new HookshotItem(false));
     public static final RegistryObject<Item> HOOKSHOT_HOOK = ITEMS.register("hookshot_hook",
-            ItemBase::new);
+            () -> new ItemBase(InfinitumMod.INFINITUM_TAB));
 
     // Tuning Fork
     public static final RegistryObject<TuningFork> TUNING_FORK = ITEMS.register("tuning_fork",
@@ -89,33 +89,42 @@ public class ModItems {
     // Tools
     public static final RegistryObject<SwordItem> INFINITUM_SWORD = ITEMS.register(
             "infinitum_sword",
-            () -> new SwordItem(InfinitumItemTier.INFINITUM, 0x7FFFFFFF, 0.0f, new Item.Properties().group(InfinitumMod.INFINITUM_TAB).isImmuneToFire()));
+            () -> new SwordItem(InfinitumItemTier.INFINITUM, 0x7FFFFFFF, 0.0f,
+                    new Item.Properties().group(InfinitumMod.INFINITUM_TAB).isImmuneToFire()));
     public static final RegistryObject<PickaxeItem> INFINITUM_PICKAXE = ITEMS.register(
             "infinitum_pickaxe",
-            () -> new PickaxeItem(InfinitumItemTier.INFINITUM, 0, -2.8f, new Item.Properties().group(InfinitumMod.INFINITUM_TAB).isImmuneToFire()));
+            () -> new PickaxeItem(InfinitumItemTier.INFINITUM, 0, -2.8f,
+                    new Item.Properties().group(InfinitumMod.INFINITUM_TAB).isImmuneToFire()));
     public static final RegistryObject<AxeItem> INFINITUM_AXE = ITEMS.register(
             "infinitum_axe",
-            () -> new AxeItem(InfinitumItemTier.INFINITUM, 0, -2.8f, new Item.Properties().group(InfinitumMod.INFINITUM_TAB).isImmuneToFire()));
+            () -> new AxeItem(InfinitumItemTier.INFINITUM, 0, -2.8f,
+                    new Item.Properties().group(InfinitumMod.INFINITUM_TAB).isImmuneToFire()));
     public static final RegistryObject<ShovelItem> INFINITUM_SHOVEL = ITEMS.register(
             "infinitum_shovel",
-            () -> new ShovelItem(InfinitumItemTier.INFINITUM, 0, -2.8f, new Item.Properties().group(InfinitumMod.INFINITUM_TAB).isImmuneToFire()));
+            () -> new ShovelItem(InfinitumItemTier.INFINITUM, 0, -2.8f,
+                    new Item.Properties().group(InfinitumMod.INFINITUM_TAB).isImmuneToFire()));
     public static final RegistryObject<HoeItem> INFINITUM_HOE = ITEMS.register(
             "infinitum_hoe",
-            () -> new HoeItem(InfinitumItemTier.INFINITUM, 0, -2.8f, new Item.Properties().group(InfinitumMod.INFINITUM_TAB).isImmuneToFire()));
+            () -> new HoeItem(InfinitumItemTier.INFINITUM, 0, -2.8f,
+                    new Item.Properties().group(InfinitumMod.INFINITUM_TAB).isImmuneToFire()));
 
     // Armor
     public static final RegistryObject<ArmorItem> INFINITUM_HELMET = ITEMS.register(
             "infinitum_helmet",
-            () -> new ArmorItem(ModArmorMaterial.INFINITUM, EquipmentSlotType.HEAD, new Item.Properties().group(InfinitumMod.INFINITUM_TAB).isImmuneToFire()));
+            () -> new ArmorItem(ModArmorMaterial.INFINITUM, EquipmentSlotType.HEAD,
+                    new Item.Properties().group(InfinitumMod.INFINITUM_TAB).isImmuneToFire()));
     public static final RegistryObject<ArmorItem> INFINITUM_CHESTPLATE = ITEMS.register("" +
                     "infinitum_chestplate",
-            () -> new ArmorItem(ModArmorMaterial.INFINITUM, EquipmentSlotType.CHEST, new Item.Properties().group(InfinitumMod.INFINITUM_TAB).isImmuneToFire()));
+            () -> new ArmorItem(ModArmorMaterial.INFINITUM, EquipmentSlotType.CHEST,
+                    new Item.Properties().group(InfinitumMod.INFINITUM_TAB).isImmuneToFire()));
     public static final RegistryObject<ArmorItem> INFINITUM_LEGGINGS = ITEMS.register(
             "infinitum_leggings",
-            () -> new ArmorItem(ModArmorMaterial.INFINITUM, EquipmentSlotType.LEGS, new Item.Properties().group(InfinitumMod.INFINITUM_TAB).isImmuneToFire()));
+            () -> new ArmorItem(ModArmorMaterial.INFINITUM, EquipmentSlotType.LEGS,
+                    new Item.Properties().group(InfinitumMod.INFINITUM_TAB).isImmuneToFire()));
     public static final RegistryObject<ArmorItem> INFINITUM_BOOTS = ITEMS.register(
             "infinitum_boots",
-            () -> new ArmorItem(ModArmorMaterial.INFINITUM, EquipmentSlotType.FEET, new Item.Properties().group(InfinitumMod.INFINITUM_TAB).isImmuneToFire()));
+            () -> new ArmorItem(ModArmorMaterial.INFINITUM, EquipmentSlotType.FEET,
+                    new Item.Properties().group(InfinitumMod.INFINITUM_TAB).isImmuneToFire()));
 
     // Extras
     public static final RegistryObject<BakedPoisonousPotato> BAKED_POISONOUS_POTATO = ITEMS.register(

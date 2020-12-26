@@ -67,7 +67,7 @@ public class StructureControllerTileEntity extends TileEntity implements ITickab
                 .add(structureSize / 2, structureHeight / 2, structureSize / 2)))
                 .grow(structureSize / 2, structureHeight / 2, structureSize / 2);
 
-        execute();
+        if (hasStructure) execute();
 
         kickCooldownTicks++;
     }

@@ -54,28 +54,35 @@ public class ModBlocks {
     // Block Items
     public static final RegistryObject<Item> INFINITUM_ORE_BLOCK_ITEM = ModItems.ITEMS.register(
             "infinitum_ore_block",
-            () -> new BlockItemBase(INFINITUM_ORE_BLOCK.get()));
+            () -> new BlockItemBase(INFINITUM_ORE_BLOCK.get(),
+                    InfinitumMod.INFINITUM_TAB));
     public static final RegistryObject<Item> INFINITUM_BLOCK_ITEM = ModItems.ITEMS.register(
             "infinitum_block",
-            () -> new BlockItemBase(INFINITUM_BLOCK.get()));
+            () -> new BlockItemBase(INFINITUM_BLOCK.get(),
+                    InfinitumMod.INFINITUM_TAB));
     public static final RegistryObject<Item> ANCIENT_INFINITUM_BLOCK_ITEM = ModItems.ITEMS.register(
             "ancient_infinitum_block",
-            () -> new BlockItemBase(ANCIENT_INFINITUM_BLOCK.get()));
+            () -> new BlockItemBase(ANCIENT_INFINITUM_BLOCK.get(),
+                    InfinitumMod.UNUSED_TAB));
 
     public static final RegistryObject<Item> STRUCTURE_CONTROLLER_BLOCK_ITEM = ModItems.ITEMS.register(
             "structure_controller_block",
-            () -> new BlockItemBase(STRUCTURE_CONTROLLER_BLOCK.get()));
+            () -> new BlockItemBase(STRUCTURE_CONTROLLER_BLOCK.get(),
+                    InfinitumMod.UNUSED_TAB));
 
     public static final RegistryObject<Item> QUARRY_BLOCK_ITEM = ModItems.ITEMS.register(
             "quarry_block",
-            () -> new BlockItemBase(QUARRY_BLOCK.get()));
+            () -> new BlockItemBase(QUARRY_BLOCK.get(),
+                    InfinitumMod.INFINITUM_TAB));
 
     public static final RegistryObject<Item> LAVA_SPONGE_BLOCK_ITEM = ModItems.ITEMS.register(
             "lava_sponge_block",
-            () -> new BlockItemBase(LAVA_SPONGE_BLOCK.get()));
+            () -> new BlockItemBase(LAVA_SPONGE_BLOCK.get(),
+                    InfinitumMod.INFINITUM_TAB));
     public static final RegistryObject<Item> MOLTEN_LAVA_SPONGE_BLOCK_ITEM = ModItems.ITEMS.register(
             "molten_lava_sponge_block",
-            () -> new BlockItemBase(MOLTEN_LAVA_SPONGE_BLOCK.get()));
+            () -> new BlockItemBase(MOLTEN_LAVA_SPONGE_BLOCK.get(),
+                    InfinitumMod.INFINITUM_TAB));
 
     // Simply multiplied the hunger and saturation values by nine.
     public static final RegistryObject<Item> POTATO_BLOCK_ITEM = ModItems.ITEMS.register(
