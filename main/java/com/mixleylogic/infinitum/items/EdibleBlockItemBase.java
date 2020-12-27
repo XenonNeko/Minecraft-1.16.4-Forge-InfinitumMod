@@ -16,6 +16,8 @@ public class EdibleBlockItemBase extends BlockItem {
 
     public static Food BuildFood(int hunger, float saturation, FoodEffect[] effects) {
         Food.Builder builder = new Food.Builder();
+        builder.hunger(hunger);
+        builder.saturation(saturation);
         for (FoodEffect effect: effects) {
             builder.effect(effect::getEffectInstance, effect.getProbability());
         }

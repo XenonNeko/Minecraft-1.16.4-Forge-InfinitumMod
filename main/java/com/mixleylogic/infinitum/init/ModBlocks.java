@@ -93,7 +93,7 @@ public class ModBlocks {
             "poisonous_potato_block",
             () -> new EdibleBlockItemBase(POISONOUS_POTATO_BLOCK.get(), 18, 10.8f,
                     new FoodEffect[]{
-                            new FoodEffect(Effects.INSTANT_DAMAGE,5, 1, 0.6f)
+                            new FoodEffect(Effects.POISON,5, 1, 0.6f)
                     }));
     public static final RegistryObject<Item> BAKED_POTATO_BLOCK_ITEM = ModItems.ITEMS.register(
             "baked_potato_block",
